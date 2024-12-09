@@ -1,0 +1,63 @@
+# Ignore binary files (executables, libraries, compiled objects)
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.o
+*.obj
+*.pyc
+*.class
+*.pdb
+*.ilk
+*.lib
+
+# Ignore build folders (common in Visual Studio projects)
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore Visual Studio specific files
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sln.ide
+*.sln.metaproj
+
+# Ignore package managers and dependency folders
+node_modules/
+packages/
+.vs/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.cache
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore auto-generated files from IDE
+*.csproj.user
+*.csproj.DotSettings.user
+*.csproj.FileListAbsolute.txt
+
+# Ignore coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore test results
+TestResults/
+*.trx
+
+# Ignore IDE backup files
+*.bak
+*.old
+
+# Ignore additional OS-specific files
+.DS_Store
+Thumbs.db
